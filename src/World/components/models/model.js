@@ -3,7 +3,7 @@ import { setupModel } from './setupModel.js';
 async function loadModels() {
     const loader = new GLTFLoader();
 
-    const ModelData = await loader.loadAsync('/assets/models/leather.gltf');
+    const ModelData = await loader.loadAsync('leather.gltf');
 
     console.log("Model", ModelData);
 
